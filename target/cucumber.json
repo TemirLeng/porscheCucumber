@@ -11,19 +11,31 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 4303658413,
+=======
+              "duration": 7371926412,
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
               "status": "passed"
             },
             "line": 4,
             "name": "User is on Porsche CaymanPage",
             "match": {
+<<<<<<< HEAD
               "location": "PorscheStepDefs.user_is_on_Porsche_CaymanPage()"
+=======
+              "location": "porscheStepDefs.user_is_on_Porsche_CaymanPage()"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 6336879662,
+=======
+              "duration": 7870582407,
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
               "status": "passed"
             },
             "line": 5,
@@ -35,13 +47,18 @@
                   "offset": 18
                 }
               ],
+<<<<<<< HEAD
               "location": "PorscheStepDefs.user_select_model(int)"
+=======
+              "location": "porscheStepDefs.user_select_model(int)"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "Then "
           }
         ]
       },
       {
+<<<<<<< HEAD
         "comments": [
           {
             "line": 7,
@@ -82,15 +99,28 @@
             }
           }
         ],
+=======
+        "line": 9,
+        "name": "Selecting color, wheel, seat",
+        "description": "",
+        "id": "testing-porsche.com-website;selecting-color,-wheel,-seat",
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 528798723,
               "status": "passed"
             },
             "line": 13,
+=======
+              "duration": 5499979389,
+              "status": "passed"
+            },
+            "line": 10,
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             "name": "User select color \"Miami Blue\"",
             "match": {
               "arguments": [
@@ -99,16 +129,27 @@
                   "offset": 19
                 }
               ],
+<<<<<<< HEAD
               "location": "PorscheStepDefs.user_select_color(String)"
+=======
+              "location": "porscheStepDefs.user_select_color(String)"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1745058160,
               "status": "passed"
             },
             "line": 14,
+=======
+              "duration": 1466153128,
+              "status": "passed"
+            },
+            "line": 11,
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             "name": "User select Wheel \"20\\\" Carrera Sport Wheels\"",
             "match": {
               "arguments": [
@@ -117,16 +158,27 @@
                   "offset": 19
                 }
               ],
+<<<<<<< HEAD
               "location": "PorscheStepDefs.user_select_Wheel_Carrera_Sport_Wheels(String)"
+=======
+              "location": "porscheStepDefs.user_select_Wheel_Carrera_Sport_Wheels(String)"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2163656642,
               "status": "passed"
             },
             "line": 15,
+=======
+              "duration": 1203710009,
+              "status": "passed"
+            },
+            "line": 12,
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             "name": "User select seat \"Power Sport Seats (14-way) with Memory Package\"",
             "match": {
               "arguments": [
@@ -135,12 +187,17 @@
                   "offset": 18
                 }
               ],
+<<<<<<< HEAD
               "location": "PorscheStepDefs.user_select_seat(String)"
+=======
+              "location": "porscheStepDefs.user_select_seat(String)"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1414754846,
               "status": "passed"
             },
@@ -148,11 +205,21 @@
             "name": "User clicks on Interior Carbon Fiber",
             "match": {
               "location": "PorscheStepDefs.user_clicks_on_Interior_Carbon_Fiber()"
+=======
+              "duration": 1781285847,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on Interior Carbon Fiber",
+            "match": {
+              "location": "porscheStepDefs.user_clicks_on_Interior_Carbon_Fiber()"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 513207654,
               "status": "passed"
             },
@@ -160,11 +227,21 @@
             "name": "User selects Interior Trim in Carbon Fiber i.c.w. Standard Interior",
             "match": {
               "location": "PorscheStepDefs.user_selects_Interior_Trim_in_Carbon_Fiber_i_c_w_Standard_Interior()"
+=======
+              "duration": 516703096,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User selects Interior Trim in Carbon Fiber i.c.w. Standard Interior",
+            "match": {
+              "location": "porscheStepDefs.user_selects_Interior_Trim_in_Carbon_Fiber_i_c_w_Standard_Interior()"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1331577221,
               "status": "passed"
             },
@@ -172,15 +249,31 @@
             "name": "User clicks on Poerformance section",
             "match": {
               "location": "PorscheStepDefs.user_clicks_on_Poerformance_section()"
+=======
+              "duration": 1332336616,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Poerformance section",
+            "match": {
+              "location": "porscheStepDefs.user_clicks_on_Poerformance_section()"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 484249984,
               "status": "passed"
             },
             "line": 21,
+=======
+              "duration": 461255472,
+              "status": "passed"
+            },
+            "line": 18,
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             "name": "User selects 7-speed Porsche Doppelkupplung (PDK)",
             "match": {
               "arguments": [
@@ -189,12 +282,17 @@
                   "offset": 13
                 }
               ],
+<<<<<<< HEAD
               "location": "PorscheStepDefs.user_selects_speed_Porsche_Doppelkupplung_PDK(int)"
+=======
+              "location": "porscheStepDefs.user_selects_speed_Porsche_Doppelkupplung_PDK(int)"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1530776737,
               "status": "passed"
             },
@@ -202,11 +300,21 @@
             "name": "User selects Porsche Ceramic Composite Brakes (PCCB)",
             "match": {
               "location": "PorscheStepDefs.user_selects_Porsche_Ceramic_Composite_Brakes_PCCB()"
+=======
+              "duration": 1408309351,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User selects Porsche Ceramic Composite Brakes (PCCB)",
+            "match": {
+              "location": "porscheStepDefs.user_selects_Porsche_Ceramic_Composite_Brakes_PCCB()"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 246686019,
               "status": "passed"
             },
@@ -214,6 +322,15 @@
             "name": "User verifies actual and expected prices",
             "match": {
               "location": "PorscheStepDefs.user_verifies_actual_and_expected_prices()"
+=======
+              "duration": 307557175,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User verifies actual and expected prices",
+            "match": {
+              "location": "porscheStepDefs.user_verifies_actual_and_expected_prices()"
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
             },
             "keyword": "And "
           }
@@ -224,7 +341,11 @@
     "description": "",
     "id": "testing-porsche.com-website",
     "keyword": "Feature",
+<<<<<<< HEAD
     "uri": "PoscheTest.feature",
+=======
+    "uri": "porsche.feature",
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
     "tags": [
       {
         "line": 1,

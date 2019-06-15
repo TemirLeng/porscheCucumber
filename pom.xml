@@ -4,11 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.porsche</groupId>
-    <artifactId>porscheCucumber</artifactId>
+    <groupId>cucumber-junit-automation</groupId>
+    <artifactId>cucumber-junit-automation</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
 
+<<<<<<< HEAD
+=======
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -50,6 +60,10 @@
             <artifactId>cucumber-java</artifactId>
             <version>1.2.5</version>
         </dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
         <dependency>
             <groupId>info.cukes</groupId>
@@ -57,6 +71,10 @@
             <version>1.2.5</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -68,6 +86,10 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+<<<<<<< HEAD
+=======
+            <scope>compile</scope>
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
         </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
@@ -76,9 +98,13 @@
             <scope>compile</scope>
         </dependency>
 
+<<<<<<< HEAD
 
     </dependencies>
 
+=======
+    </dependencies>
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
     <build>
         <plugins>
             <plugin>
@@ -109,5 +135,9 @@
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
 
 </project>

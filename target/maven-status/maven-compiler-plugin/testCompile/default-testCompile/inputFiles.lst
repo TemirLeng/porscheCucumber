@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/aidaomuralieva/Downloads/porscheCucumber/src/test/java/Medet/StepDefinitions/Hooks.java
 /Users/aidaomuralieva/Downloads/porscheCucumber/src/test/java/temirlan/SimpleClass.java
 /Users/aidaomuralieva/Downloads/porscheCucumber/src/test/java/Medet/Pages/PorschePages.java
@@ -7,3 +8,14 @@
 /Users/aidaomuralieva/Downloads/porscheCucumber/src/test/java/Medet/Utilities/ExcelUtils.java
 /Users/aidaomuralieva/Downloads/porscheCucumber/src/test/java/Medet/TestRunner/Runner.java
 /Users/aidaomuralieva/Downloads/porscheCucumber/src/test/java/Medet/Utilities/Configurations.java
+=======
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/ulan/utilities/Configuration.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/ulan/utilities/ExcelUtils.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/ulan/utilities/Driver.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/ulan/StepDefinitions/porscheStepDefs.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/ulan/StepDefinitions/Hooks.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/ulan/utilities/BrowserUtilities.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/Test/Runner.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/ulan/Pages/PorscheHomePage.java
+/Users/aizatkanybekova/IdeaProjects/porscheCucumber/src/test/java/temirlan/SimpleClass.java
+>>>>>>> d7f1e577c3c6a08b5dd03372ad7552fe008c6e26
