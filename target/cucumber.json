@@ -1,0 +1,235 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4303658413,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Porsche CaymanPage",
+            "match": {
+              "location": "PorscheStepDefs.user_is_on_Porsche_CaymanPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6336879662,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user select model 718",
+            "match": {
+              "arguments": [
+                {
+                  "val": "718",
+                  "offset": 18
+                }
+              ],
+              "location": "PorscheStepDefs.user_select_model(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 7,
+            "value": "#    Scenario: verify base prices"
+          },
+          {
+            "line": 8,
+            "value": "#    And remembers the price and click 718 Cayman"
+          },
+          {
+            "line": 9,
+            "value": "#    Then user verifies the base price and price in CaymanPage"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 3551459621,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Selecting color, wheel, seat",
+        "description": "",
+        "id": "testing-porsche.com-website;selecting-color,-wheel,-seat",
+        "after": [
+          {
+            "result": {
+              "duration": 189641139,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 528798723,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User select color \"Miami Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Miami Blue",
+                  "offset": 19
+                }
+              ],
+              "location": "PorscheStepDefs.user_select_color(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1745058160,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select Wheel \"20\\\" Carrera Sport Wheels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20\\",
+                  "offset": 19
+                }
+              ],
+              "location": "PorscheStepDefs.user_select_Wheel_Carrera_Sport_Wheels(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2163656642,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select seat \"Power Sport Seats (14-way) with Memory Package\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Power Sport Seats (14-way) with Memory Package",
+                  "offset": 18
+                }
+              ],
+              "location": "PorscheStepDefs.user_select_seat(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1414754846,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Interior Carbon Fiber",
+            "match": {
+              "location": "PorscheStepDefs.user_clicks_on_Interior_Carbon_Fiber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513207654,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User selects Interior Trim in Carbon Fiber i.c.w. Standard Interior",
+            "match": {
+              "location": "PorscheStepDefs.user_selects_Interior_Trim_in_Carbon_Fiber_i_c_w_Standard_Interior()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1331577221,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Poerformance section",
+            "match": {
+              "location": "PorscheStepDefs.user_clicks_on_Poerformance_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 484249984,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User selects 7-speed Porsche Doppelkupplung (PDK)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 13
+                }
+              ],
+              "location": "PorscheStepDefs.user_selects_speed_Porsche_Doppelkupplung_PDK(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1530776737,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User selects Porsche Ceramic Composite Brakes (PCCB)",
+            "match": {
+              "location": "PorscheStepDefs.user_selects_Porsche_Ceramic_Composite_Brakes_PCCB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246686019,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User verifies actual and expected prices",
+            "match": {
+              "location": "PorscheStepDefs.user_verifies_actual_and_expected_prices()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Porsche.com WebSite",
+    "description": "",
+    "id": "testing-porsche.com-website",
+    "keyword": "Feature",
+    "uri": "PoscheTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@PorscheTest"
+      }
+    ]
+  }
+]
