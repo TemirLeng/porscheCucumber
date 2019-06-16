@@ -2,11 +2,7 @@
 Feature:Testing Porsche.com WebSite
   Background:
     Given User is on Porsche CaymanPage
-    Then user select model 718
-
-#    Scenario: verify base prices
-#    And remembers the price and click 718 Cayman
-#    Then user verifies the base price and price in CaymanPage
+    When user select model 718
 
 
     Scenario: Selecting color, wheel, seat
