@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7032280064,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on porsche main page",
+            "match": {
+              "location": "PorscheStepDef.user_is_on_porsche_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3667590687,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User selects and validates total price",
+        "description": "",
+        "id": "testing-weborders-application;user-selects-and-validates-total-price",
+        "after": [
+          {
+            "result": {
+              "duration": 127821,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8279442796,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects 718 and chooses Cayman",
+            "match": {
+              "location": "PorscheStepDef.user_selects_and_chooses_Cayman()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201689612,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets 718 Cayman equipment price ,handling fee price , base price  and sum price",
+            "match": {
+              "location": "PorscheStepDef.user_gets_Cayman_equipment_price_handling_fee_price_base_price_and_sum_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 617634822,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "selects Miami Blue color",
+            "match": {
+              "location": "PorscheStepDef.selects_Miami_Blue_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642462379,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Selects 20 Carrera Sport Wheels",
+            "match": {
+              "location": "PorscheStepDef.selects_Carrera_Sport_Wheels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6755198468,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Selects seats ‘Power Sport Seats (14-way) with Memory Package",
+            "match": {
+              "location": "PorscheStepDef.selects_seats_Power_Sport_Seats_way_with_Memory_Package()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7028919325,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Clicks on Interior Carbon Fiber and Selects Interior Trim in Carbon Fiber i.c.w. Standard Interior",
+            "match": {
+              "location": "PorscheStepDef.clicks_on_Interior_Carbon_Fiber_and_Selects_Interior_Trim_in_Carbon_Fiber_i_c_w_Standard_Interior()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19033045105,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Clicks on Performance and Selects 7-speed Porsche Doppelkupplung (PDK) and Select Porsche Ceramic Composite Brakes (PCCB)",
+            "match": {
+              "location": "PorscheStepDef.clicks_on_Performance_and_Selects_speed_Porsche_Doppelkupplung_PDK_and_Select_Porsche_Ceramic_Composite_Brakes_PCCB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229546732,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify that total price is the sum of base price added Price for Equipment added Delivery, Processing and Handling Fee",
+            "match": {
+              "location": "PorscheStepDef.verify_that_total_price_is_the_sum_of_base_price_added_Price_for_Equipment_added_Delivery_Processing_and_Handling_Fee()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing WebOrders application",
+    "description": "",
+    "id": "testing-weborders-application",
+    "keyword": "Feature",
+    "uri": "src/test/recources/TestFeatures/Porsche.feature"
+  }
+]
