@@ -1,5 +1,4 @@
-package ulan.utilities;
-
+package kyial.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
@@ -29,4 +28,3 @@ public class Configuration {
 
     }
 }
-
